@@ -185,6 +185,8 @@
  */
 /*#define MINIZ_NO_MALLOC */
 
+#pragma warning(disable : 4267)
+
 #ifdef MINIZ_NO_INFLATE_APIS
 #define MINIZ_NO_ARCHIVE_APIS
 #endif
